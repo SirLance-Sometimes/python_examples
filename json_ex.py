@@ -12,6 +12,8 @@ with open('example.json', 'r') as file:
 # example of dumps showing string output
 print(json.dumps(data, indent=3))
 print(json.dumps(data2, indent=3))
+# we can also print out an individual value from the data
+print(data['name'])
 
 # example of dump writing to a file
 with open('output.json', 'w') as file:
